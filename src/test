@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+struct Soojebi{
+ char name[20];
+ int os,db,hab1,hab2
+}
+int main() {
+    struct Soojebi s[3] ={{"데이터1",95,88},
+    {"데이터1",95,88}
+}
+    printf("Hello world!\n");
+    return 0;
+}
