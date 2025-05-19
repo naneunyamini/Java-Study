@@ -20,6 +20,9 @@ public class Book {
         this.page=page;
     }
 
+    public Book(String java, int i, String han, String number) {
+    }
+
     void displayInfo(){
         System.out.println("제목: "+title+"저자: "+author+"페이지: "+page);
     }
